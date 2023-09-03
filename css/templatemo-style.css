@@ -81,7 +81,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/home-bg.jpg');
+  background: url('../images/waterfall-transformed.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -92,10 +92,12 @@ hr {
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;  
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
   height: 100vh;
+  /* Apply a CSS filter to lighten the background image */
+  filter: brightness(70%); /* Adjust the percentage as needed */
 }
 .tm-home-title,
  .tm-home-subtitle {
@@ -324,12 +326,13 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/about-bg.jpg');
+  background: url('../images/adventure.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
   padding-top: 60px;
   padding-bottom: 100px;
+  opacity: 1; /* Adjust the opacity as needed */
 }
 /* END ABOUT */
 
