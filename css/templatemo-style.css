@@ -81,7 +81,7 @@ hr {
 
 /* START HOME */
 .templatemo-home {
-  background: url('../images/waterfall-transformed.png');
+  background: url('../images/waterfall-low.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
@@ -326,10 +326,10 @@ hr {
 
 /* START ABOUT */
 .tm-about {
-  background: url('../images/adventure.png');
+  background: url('../images/wall_picture_test.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center center;
+  background-position: left left;
   padding-top: 60px;
   padding-bottom: 100px;
   opacity: 1; /* Adjust the opacity as needed */
