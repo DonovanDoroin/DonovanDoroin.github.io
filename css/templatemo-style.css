@@ -169,7 +169,7 @@ hr {
 .tm-portfolio .col-md-3,
  .tm-portfolio .col-sm-3 {
   padding: 0;
-  margin: 0;
+  margin: 3;
 }
 .tm-portfolio-title {
   text-align: center;
@@ -277,7 +277,9 @@ hr {
   min-height: 50px;
   float: left;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 3px; /* Add spacing between rows */
+  margin-right: 3px; /* Add spacing between boxes */
+  width: calc(25% - 3px); /* 25% width for 4 boxes per row minus 2px margin */
 }
 .iso-box > a {
   display: block;
@@ -296,6 +298,7 @@ hr {
   display: block;
   height: auto;
 }
+
 /* END PORTFOLIO */
 
 /* START RESUME */
