@@ -185,6 +185,9 @@ hr {
   overflow: hidden;
   margin: 0;
   position: relative;
+  /*border: 2px solid #eb5424; Add this line for border */
+  padding: 0px;         /* Add this line for padding */
+  margin: 1px;          /* Add this line for margin */
 }
 .portfolio-overlay {
   display: -webkit-box;
