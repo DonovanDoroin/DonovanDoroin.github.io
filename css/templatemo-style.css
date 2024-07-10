@@ -357,12 +357,16 @@ hr {
   padding: 0;
   margin: 0;
 }
-.facebook:hover,
+.tm-social .col-md-6, .tm-social .col-sm-6 {
+  padding: 0;
+  margin: 0;
+}
+/* .facebook:hover, */
 .twitter:hover,
 .pinterest:hover {
   background: #202020;
 }
-.facebook { background: #3b5998; }
+/* .facebook { background: #3b5998; } */
 .twitter { background: #55acee; }
 .pinterest { background: #cc2127; }
 .media {
